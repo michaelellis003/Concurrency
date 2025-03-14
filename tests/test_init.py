@@ -1,6 +1,6 @@
 """Unit tests for the python_package_template module."""
 
-from python_package_template import add, hello, multiply
+from concurrency import add, hello, multiply
 
 
 def test_hello():
