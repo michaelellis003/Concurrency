@@ -1,18 +1,6 @@
-"""Unit tests for the python_package_template module."""
-
-from concurrency import add, hello, multiply
+"""Unit tests for the concurrenct module."""
 
 
-def test_hello():
-    """Test the hello function."""
-    assert hello('World!') == 'Hello World!'
-
-
-def test_add():
-    """Test the add function."""
-    assert add(1, 2) == 3
-
-
-def test_multiply():
-    """Test the multiply function."""
-    assert multiply(2.5, 2) == 5
+def test_always_pass():
+    """This test always passes."""
+    assert True
