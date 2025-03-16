@@ -12,3 +12,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+# flag images
+flags/
+downloaded/

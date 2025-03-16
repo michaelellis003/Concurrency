@@ -9,6 +9,8 @@ license = {text = "Apache-2.0"}
 readme = "README.md"
 requires-python = ">=3.10" # Update this when changing .python-versions
 dependencies = [
+    "httpx (>=0.28.1,<0.29.0)",
+    "tqdm (>=4.67.1,<5.0.0)"
 ]
 
 [tool.poetry.group.dev.dependencies]
@@ -88,4 +90,6 @@ docstring-code-format = true
 docstring-code-line-length = "dynamic"
 
 [tool.pyright]
+venvPath = "."
+venv = ".venv"
 exclude = ["tests"]
